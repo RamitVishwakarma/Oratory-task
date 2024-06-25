@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    src: url(./assets/Fonts/Poppins-Regular.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: Poppins;
+    font-weight: 700;
+    src: url(./assets/Fonts/Poppins-Bold.ttf) format("ttf");
+  }
+}
+
+@layer utilities {
+  .shadow-jobs {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .shadow-navbar {
+    box-shadow: 0px 4px 4px 0px rgba(217, 217, 217, 0.1);
+  }
+  .shadow-inside {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  }
+  .shadow-for-img {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08) inset;
+  }
+  .shadow-follow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .shadow-a-quote-from {
+    box-shadow: -4px 8px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
